@@ -1,5 +1,0 @@
-{
-  "ConnectionStrings": {
-    "RoofStockDB": "Data Source=LTITR90QG6DN;Initial Catalog=RoofStock;Persist Security Info=True;User ID=admin;Password=admin;Pooling=False"
-  }
-}
