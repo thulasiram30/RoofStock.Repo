@@ -1,0 +1,12 @@
+<mat-card class="property-root">
+  <mat-card-content>
+    <div>
+      <ag-grid-angular
+        class="property-grid ag-theme-material"
+        [gridOptions]="gridOptions"
+        [rowData]="propertyList$ | async"
+      >
+      </ag-grid-angular>
+    </div>
+  </mat-card-content>
+</mat-card>

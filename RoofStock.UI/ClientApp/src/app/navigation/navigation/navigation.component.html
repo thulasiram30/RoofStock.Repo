@@ -1,0 +1,12 @@
+<mat-sidenav-container>
+  <mat-sidenav opened mode="side">
+    <mat-nav-list>
+      <a mat-list-item [routerLink]="['Properties']">Properties</a>
+      <a mat-list-item [routerLink]="['Portfolio']">Portfolio</a>
+      <a mat-list-item [routerLink]="['Market']">Market</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>

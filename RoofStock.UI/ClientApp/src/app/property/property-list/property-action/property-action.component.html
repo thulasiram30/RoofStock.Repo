@@ -1,0 +1,18 @@
+<div>
+  <button mat-mini-fab *ngIf="isNew == true" (click)="edit()" color="accent">
+    <mat-icon>edit</mat-icon>
+  </button>
+  <div>
+    <button
+      mat-mini-fab
+      *ngIf="isNew == false"
+      (click)="update()"
+      color="primary"
+    >
+      <mat-icon>save</mat-icon>
+    </button>
+    <button mat-mini-fab *ngIf="isNew == false" (click)="cancel()" color="warn">
+      <mat-icon>cancel</mat-icon>
+    </button>
+  </div>
+</div>

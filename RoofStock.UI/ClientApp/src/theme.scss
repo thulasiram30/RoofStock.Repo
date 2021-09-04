@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$roofStock-primary: mat-palette($mat-blue-grey);
+$roofStock-accent:  mat-palette($mat-pink, 500, 900, A100);
+$roofStock-warn:    mat-palette($mat-deep-orange);
+
+$roofStock-theme: mat-light-theme($roofStock-primary, $roofStock-accent, $roofStock-warn);
+
+@include angular-material-theme($roofStock-theme);
+
+$primary: mat-color($roofStock-primary);
+$accent: mat-color($roofStock-accent);
+$warn: mat-color($roofStock-warn);
